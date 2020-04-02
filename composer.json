@@ -1,11 +1,12 @@
 {
   "autoload": {
       "psr-4": {
-        "AbstractMethod\\": "factory-pattern\\abstract-factory",
-        "ObserverPattern\\": "observer-pattern"
+          "AbstractMethod\\": "factory-pattern\\abstract-factory",
+          "ObserverPattern\\": "observer-pattern",
+          "": "facade-pattern"
       }
   },
   "config": {
-    "optimize-autoloader": true
+      "optimize-autoloader": true
   }
 }
