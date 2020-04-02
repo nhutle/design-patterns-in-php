@@ -2,7 +2,7 @@
 
 namespace AbstractMethod;
 
-include "autoload.php";
+require __DIR__ . '/../../vendor/autoload.php';
 
 $shapeFactory = FactoryProducer::getFactory('shape');
 $shape = $shapeFactory->getShape(Shape::CIRCLE);
