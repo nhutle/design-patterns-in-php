@@ -3,5 +3,8 @@
       "psr-4": {
         "AbstractMethod\\": "factory-pattern\\abstract-factory"
       }
+  },
+  "config": {
+    "optimize-autoloader": true
   }
 }
